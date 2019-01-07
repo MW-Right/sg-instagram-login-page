@@ -5,62 +5,58 @@ body {
     font-weight: 500;
 }
 footer {
-    width:1200px;
-    margin-left:500px;
+    width:100%;
+    margin-left:auto;
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
 }
 footer h4 {
     padding-left:25px;
     font-size:8pt;
-    margin-top:50px;
+    margin-top:20px;
     color:navy;
 }
 .page {
     display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:100px;
-    width:1000px;
+    margin:0 auto 0;
+    width:100%;
     background:#fafafa;
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
 }
-.form {
-    width:320px;
-    padding:20px;
+.form-container {
+    max-width:320px;
+    width:100%;
+    padding:10px 20px;
     border:1pt solid #bababa;
     background:#fff;
-    grid-template-columns:auto;
-    grid-template-rows:30px 10px 30px 20px;
+    display:flexbox;
+    flex-direction: column;
 }
 .logo {
-    width:60%;
+    width:70%;
+    margin: 0 50px;
 }
 .fb-login {
-    width:auto;
-    margin-left:25px;
-    margin-right:20px;
+    width:100%;
     background:#0094ff;
-    padding-left:52px;
-    padding-right:52px;
-    padding-top:5px;
-    padding-bottom:5px;
+    padding:5px 50px;
     border-radius:3pt;
     color:#fff;
     text-decoration:none;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
+    margin-left:30px;
 }
 .instagram {
     padding:5px;
     width:300px;
 }
-.logo {
-    margin-left:60px;
-}
 .appstore {
     width:120px;
+    margin-left:50px;
 }
 .playstore {
     width:120px;
@@ -70,7 +66,66 @@ footer h4 {
     width:80%;
     text-align:center;
     color:#bababa;
+    font-weight: 400; 
 }
+.input {
+    margin-left:20px;
+    width:260px;
+    margin-bottom:5px;
+    padding:5px;
+    border:1px solid #d5d5d5;
+    height:20px;
+    color:#cecece;
+}
+.submit {
+    max-width:400px;
+    margin-left:50px;
+    background:#0094ff;
+    padding:5px 80px;
+    border-radius:3pt;
+    color:#fff;
+    text-decoration:none;
+    font-size: 11pt;
+    border:none;
+    font-weight: 500;
+}
+.terms {
+    width:280px;
+    margin-top:25px;
+    margin-left:12px;
+}
+.terms h3{
+    font-weight: 400;
+    text-align: center;
+    font-size:13pt;
+}
+.terms a {
+    font-weight:450;
+    color:#bababa;
+    text-decoration: none;
+}
+.login {
+    margin-top:10px;
+    border: 1pt solid #bababa;
+    width: 100%;
+    display:inline-block;
+}
+.login h3 {
+    color:black;
+    font-weight:400;
+    text-align:center;
+    font-size: 12pt;
+}
+.login a {
+    text-decoration: none;
+}
+.download h3{
+    color:black;
+    font-weight:400;
+    text-align:center;
+    font-size:13pt;
+}
+/* OR Divider Line */
 .divider {
     margin-top:15px;
     margin-bottom:10px;
@@ -100,65 +155,10 @@ footer h4 {
     left:100%;
     margin-left:15px;
 }
-.input {
-    margin-left:20px;
-    width:260px;
-    margin-bottom:5px;
-    padding:5px;
-    border:1px solid #d5d5d5;
-    height:20px;
-    color:#cecece;
-}
-.submit {
-    width:auto;
-    margin-left:20px;
-    margin-right:20px;
-    background:#0094ff;
-    padding-left:112px;
-    padding-right:108px;
-    padding-top:5px;
-    padding-bottom:5px;
-    border-radius:3pt;
-    color:#fff;
-    text-decoration:none;
-    font-size: 11pt;
-    border:none;
-    font-weight: 500;
-}
-.terms {
-    width:280px;
-    margin-top:25px;
-    margin-left:12px;
-}
-.terms h3{
-    font-weight: 400;
-    text-align: center;
-    font-size:13pt;
-}
-.terms a {
-    font-weight:450;
-    color:#bababa;
-    text-decoration: none;
-}
-.login {
-    margin-top:10px;
-    border: 1pt solid #bababa;
-}
-.login h3 {
-    color:black;
-    font-weight:400;
-    text-align:center;
-    font-size: 13pt;
-}
-.login a {
-    text-decoration: none;
-}
-.appstore {
-    margin-left:50px;
-}
-.download h3{
-    color:black;
-    font-weight:400;
-    text-align:center;
-    font-size:13pt;
+/* Media Queries */
+
+@media only screen and (max-width=720px) {
+    .phone {
+        display:none;
+    }
 }

@@ -1,0 +1,164 @@
+body {
+    background:#fafafa;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#999999;
+    font-weight: 500;
+}
+footer {
+    width:1200px;
+    margin-left:500px;
+    display:flex;
+    flex-direction:row;
+}
+footer h4 {
+    padding-left:25px;
+    font-size:8pt;
+    margin-top:50px;
+    color:navy;
+}
+.page {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    width:1000px;
+    background:#fafafa;
+    display:flex;
+    flex-direction:row;
+}
+.form {
+    width:320px;
+    padding:20px;
+    border:1pt solid #bababa;
+    background:#fff;
+    grid-template-columns:auto;
+    grid-template-rows:30px 10px 30px 20px;
+}
+.logo {
+    width:60%;
+}
+.fb-login {
+    width:auto;
+    margin-left:25px;
+    margin-right:20px;
+    background:#0094ff;
+    padding-left:52px;
+    padding-right:52px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:3pt;
+    color:#fff;
+    text-decoration:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.instagram {
+    padding:5px;
+    width:300px;
+}
+.logo {
+    margin-left:60px;
+}
+.appstore {
+    width:120px;
+}
+.playstore {
+    width:120px;
+}
+.instagram h3 {
+    margin-left:30px;
+    width:80%;
+    text-align:center;
+    color:#bababa;
+}
+.divider {
+    margin-top:15px;
+    margin-bottom:10px;
+    display:block;
+    text-align:center;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.divider span {
+    position:relative;
+    display:inline-block;
+}
+.divider span:before,
+.divider span:after {
+    content:"";
+    position:absolute;
+    top:50%;
+    width:9999px;
+    height:1px;
+    background:#bababa;
+}
+.divider span:before {
+    right:100%;
+    margin-right:15px;
+}
+.divider span:after {
+    left:100%;
+    margin-left:15px;
+}
+.input {
+    margin-left:20px;
+    width:260px;
+    margin-bottom:5px;
+    padding:5px;
+    border:1px solid #d5d5d5;
+    height:20px;
+    color:#cecece;
+}
+.submit {
+    width:auto;
+    margin-left:20px;
+    margin-right:20px;
+    background:#0094ff;
+    padding-left:112px;
+    padding-right:108px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:3pt;
+    color:#fff;
+    text-decoration:none;
+    font-size: 11pt;
+    border:none;
+    font-weight: 500;
+}
+.terms {
+    width:280px;
+    margin-top:25px;
+    margin-left:12px;
+}
+.terms h3{
+    font-weight: 400;
+    text-align: center;
+    font-size:13pt;
+}
+.terms a {
+    font-weight:450;
+    color:#bababa;
+    text-decoration: none;
+}
+.login {
+    margin-top:10px;
+    border: 1pt solid #bababa;
+}
+.login h3 {
+    color:black;
+    font-weight:400;
+    text-align:center;
+    font-size: 13pt;
+}
+.login a {
+    text-decoration: none;
+}
+.appstore {
+    margin-left:50px;
+}
+.download h3{
+    color:black;
+    font-weight:400;
+    text-align:center;
+    font-size:13pt;
+}
